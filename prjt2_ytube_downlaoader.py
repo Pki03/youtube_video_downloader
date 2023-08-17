@@ -16,7 +16,7 @@ print("Thumbnail URL:", sample_video.thumbnail_url)
 video_stream = sample_video.streams.get_highest_resolution()
 
 # Change the download path to your desired location
-download_path = "C:/Users/91913/Downloads/videos_downloaded"  # Modify this path
+download_path = ""  # Modify this path
 
 video_stream.download(output_path=download_path)
 
